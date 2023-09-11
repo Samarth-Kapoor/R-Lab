@@ -3,9 +3,8 @@
 #Write a function to find the probability distribution of the random variable Y = X2
 #and find probability of Y for X = 3. Further, use it to find the expected value
 #and variance of Y for X = 1,2,3,4,5.
-
-
 # Define a function to calculate the probability distribution of Y = X^2
+
 calculate_Y_distribution <- function(x) {
   p_y <- (3/4) * (1/4)^(x - 1)
   return(p_y)
