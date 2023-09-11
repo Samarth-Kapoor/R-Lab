@@ -2,8 +2,8 @@
 #with probability density function f(x) = 0.5e-|x|, 1 < x < 10 and 0 otherwise. 
 #Further use the results to find Mean and Variance.
 #(kth moment = E(Xk), Mean = first moment and Variance = second moment – Mean^2
-
 # Define the probability density function f(x)
+
 f_x <- function(x) {
   if (x >= 1 && x <= 10) {
     return(0.5 * exp(-abs(x)))
