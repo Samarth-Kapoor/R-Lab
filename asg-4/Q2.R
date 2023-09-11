@@ -10,5 +10,5 @@ f <- function(t) {
   return(0.1 * exp(-0.1 * t))
 }
 
-expected_value <- integrate(f, lower = 0, upper = Inf)$value
+expected_value <- integrate(function(t) t*f(t), lower = 0, upper = Inf)$value
 print(expected_value)
