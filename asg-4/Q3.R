@@ -3,8 +3,8 @@
 #Y = {net revenue}. If the probability mass function of X is
 #x    0   1   2   3
 #p(x) 0.1 0.2 0.2 0.5
+#Find the expected value of Y.
 
-Find the expected value of Y.
 x_values <- c(0, 1, 2, 3)
 p_x <- c(0.1, 0.2, 0.2, 0.5)
 
